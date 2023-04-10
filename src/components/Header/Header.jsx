@@ -1,7 +1,7 @@
-//다크모드 콘텍스트 연결
+
 import styles from "./Header.module.css";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
-import { useDarkMode } from "../context/DarkModeContext"; //만들어놓은 hooks를 가져옴
+import { useDarkMode } from "../context/DarkModeContext"; 
 
 export default function Header({ filters, filter, onFilterChange }) {
   const { darkMode, toggleDarkMode } = useDarkMode();
